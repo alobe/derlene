@@ -1,0 +1,23 @@
+{
+  "name": "derlene",
+  "version": "1.0.0",
+  "description": "react hooks utils",
+  "main": "index.js",
+  "repository": "https://github.com/alobe/derlene.git",
+  "author": "alobe <alobef0515@gmail.com>",
+  "license": "MIT",
+  "sideEffects": false,
+  "scripts": {
+    "build:cjs": "tsc",
+    "build:es": "tsc -m esNext --outDir esm",
+    "build": "yarn build:cjs && yarn build:es"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.49",
+    "@types/react-dom": "^16.9.8",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-use": "^15.3.4",
+    "typescript": "^4.0.3"
+  }
+}
